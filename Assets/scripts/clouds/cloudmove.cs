@@ -14,7 +14,7 @@ public class cloudmove : MonoBehaviour
     void Update()
     {
         transform.position += Vector3.left * movespeed * Time.deltaTime;
-        if (transform.position.x < -11.5)
+        if (transform.position.x < -13)
         {
             Destroy(gameObject);
         }
